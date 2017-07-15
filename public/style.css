@@ -1,0 +1,11 @@
+#shake-weight {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+}
+
+#hand {
+	position: absolute;
+	left: 51%;
+	width: 75px;
+}
