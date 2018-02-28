@@ -9,3 +9,41 @@
 	left: 51%;
 	width: 75px;
 }
+
+#pointer {
+	position: absolute;
+	left: 0px;
+	top: 250px;
+	width: 20px;
+}
+
+#score {
+	position: absolute;
+	top: 300px;
+}
+
+#rocket-heat {
+	position: absolute;
+	background: linear-gradient(red, green);
+	height: 260px;
+	width: 20px;
+	top: 0px;
+	left: 25px;
+}
+
+#fireworks {
+	display: none;	
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	transition: all 0.25s ease-in-out;
+}
+
+#fireworks-background {
+	display: none;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}

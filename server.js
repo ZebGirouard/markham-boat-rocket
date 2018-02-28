@@ -9,10 +9,12 @@ app.use(express.static('public'));
 
 app.post('/gameWon', function(req,res) {
 	console.log("Game Won!!!");
-	cmd.run('particle call porkchop-sandwiches digitalwrite D7,HIGH');
+	//cmd.run('./boatyMcBoatFace.sh');
+	//cmd.run('./oneTest.sh');
 	setTimeout(function() {
-		cmd.run('particle call porkchop-sandwiches digitalwrite D7,LOW');
-	}, 500);
+		//cmd.run('./boatyMcOffFace.sh');
+		//cmd.run('./twoTest.sh');
+	}, 5000);
 	res.send("You did win, though!");
 });
 
